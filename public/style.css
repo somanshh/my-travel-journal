@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    width: 550px;
+    height: 770px;
+    margin: 20px 500px;
+    position: absolute;
+}
+.navbar{
+    width: 100%;
+    height: 60px;
+    background-color: #F55A5A;
+    color: whitesmoke;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar > h3 {
+    font-weight: 100;
+}
+
+.navbar > img{
+    /* width: 15px; */
+    height: 15px;
+    margin-right: 3px;
+}
+
+.main--images{
+    width: 125px;
+    height: 168px;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    
+    /* display: ; */
+}
+
+.card--component{
+    display: flex;
+}
+
+.location--div{
+    display: flex;
+}
+
+.main--content{
+    margin-top: 70px;
+    font-size: 11px;
+    margin-left: 15px;
+    color: #2B283A;
+}
+
+.location--icon{
+    height: 15px;
+}
+
+.globe{
+    height: 20px;
+}
+
+.location--text{
+    padding-right: 10px;
+    text-transform: uppercase ;
+    letter-spacing: 2px;
+    /* font-weight: 200; */
+}
+
+.gMap--text{
+    color: #918E9B;
+    text-decoration: underline;
+    font-size: 10px;
+}
+
+.main--content > h4{
+    padding-top: 17px;
+    padding-bottom: 7px;
+}
+
+.main--content > p{
+    color: #2B283A;
+}
