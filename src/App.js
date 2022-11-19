@@ -5,11 +5,11 @@ import data from "./data"
 import Nav from "./Navbar"
 
 export default function App(){
-    const array = data.map(item => {
+    const array = data.map(props => {
         return (
             <>
                 <Card 
-                    {...item}
+                    {...props}
                 />
             </>
         )
